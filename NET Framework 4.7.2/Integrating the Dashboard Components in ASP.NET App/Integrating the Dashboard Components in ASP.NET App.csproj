@@ -162,12 +162,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\3rdpartylicenses.txt" />
-    <Content Include="Content\index.html" />
-    <Content Include="Content\main.js" />
-    <Content Include="Content\polyfills.js" />
-    <Content Include="Content\runtime.js" />
-    <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
