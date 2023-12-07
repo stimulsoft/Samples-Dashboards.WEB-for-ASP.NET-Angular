@@ -1,0 +1,17 @@
+# Folders
+/*/.vs/
+/*/packages/
+/*/*/packages/
+/*/*/bin/
+/*/*/obj/
+/**/node_modules/
+/**/.angular/cache
+/*/*/wwwroot/
+/*/*/Content/
+
+# Files
+*.user
+*.pubxml
+*.PublishSettings
+.DS_Store
+/*/*/*/package-lock.json
