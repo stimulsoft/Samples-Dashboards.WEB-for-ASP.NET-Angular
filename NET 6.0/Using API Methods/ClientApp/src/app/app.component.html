@@ -1,7 +1,7 @@
 Zoom is {{ viewer.api.zoom }}<br />
 <input
   type="button"
-  (click)="viewer.api.dashboardExport('Pdf', { ImageResolution: 200 })"
+  (click)="viewer.api.export('Pdf', { ImageResolution: 200 })"
   value="Export to PDF"
 />
 
