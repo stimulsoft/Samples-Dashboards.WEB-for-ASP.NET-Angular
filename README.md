@@ -1,6 +1,6 @@
 # ASP.NET and ASP.NET Core C# samples for Stimulsoft Dashboards.ANGULAR
 
-#### This repository contains the source code of the examples of usage Stimulsoft Dashboards.ANGULAR data analysis tool in the ASP.NET Angular apps, using TypeScript and C# code, and Angular embedded components. The dashboard components is fully compatible with .NET Framework 4.5.2, 4.6, 4.7, and 4.8 versions, and .NET Core 3.1, .NET 5.0, .NET 6.0, .NET 7.0, .NET 8.0 platforms.
+#### This repository contains the source code of examples demonstrating the usage of the Stimulsoft Dashboards.ANGULAR data analysis tool in ASP.NET Angular apps, using TypeScript, C# code, and Angular embedded components. The dashboard components are fully compatible with .NET Framework 4.5.2 and higher, as well as with .NET 6.0 and all later versions.
 
 ## Overview
 This repository has a set of examples (Visual Studio projects), each in different folders:
@@ -15,7 +15,6 @@ This repository has a set of examples (Visual Studio projects), each in differen
 All examples are combined into Visual Studio solutions (.sln files). They are prepared only for LTS frameworks, any compatible ones can be selected in the project settings. Currently, projects are prepared for these frameworks:
 
 * [.NET Framework 4.7.2](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Angular/tree/master/NET%20Framework%204.7.2)
-* [.NET Core 3.1](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Angular/tree/master/NET%20Core%203.1)
 * [.NET 6.0](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Angular/tree/master/NET%206.0)
 * [.NET 8.0](https://github.com/stimulsoft/Samples-Dashboards.WEB-for-ASP.NET-Angular/tree/master/NET%208.0)
 
