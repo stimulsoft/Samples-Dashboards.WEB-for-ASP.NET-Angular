@@ -15,7 +15,7 @@ namespace Integrating_the_Dashboard_Components_in_ASP_NET_App.Controllers
             //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
             //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
         }
-
+        
         public class AllowCrossSiteJsonAttribute : ActionFilterAttribute
         {
             public override void OnActionExecuting(ActionExecutingContext filterContext)

@@ -1,4 +1,6 @@
 Zoom is {{ viewer.api.zoom }}<br />
+Current page {{ viewer.api.currentPage + 1 }}<br />
+<input type="button" (click)="viewer.api.zoom = 50" value="Zoom to 50%" />
 <input
   type="button"
   (click)="viewer.api.export('Pdf', { ImageResolution: 200 })"
