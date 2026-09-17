@@ -42,7 +42,7 @@ namespace Using_Viewer_Parameters.Controllers
                 var data = Convert.FromBase64String(properties);
                 var json = Encoding.UTF8.GetString(data);
                 var jsonObject = JsonConvert.DeserializeObject(json) as JToken;
-                reportName = jsonObject["reportName"]?.ToString() ?? reportName;
+                reportName = jsonObject?["reportName"]?.ToString() ?? reportName;
             }
 
             var report = StiReport.CreateNewReport();

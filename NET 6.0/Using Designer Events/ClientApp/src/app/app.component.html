@@ -1,6 +1,6 @@
 <stimulsoft-viewer-angular
   *ngIf="showViewer"
-  [requestUrl]="'http://localhost:60801/Viewer/{action}'"
+  [requestUrl]="'http://localhost:60605/Viewer/{action}'"
   [action]="'InitViewer'"
   [height]="'100%'"
   (design)="showViewer = false"
@@ -8,7 +8,7 @@
 <stimulsoft-designer-angular
   #designer
   *ngIf="!showViewer"
-  [requestUrl]="'http://localhost:60801/api/designer'"
+  [requestUrl]="'http://localhost:60605/api/designer'"
   [height]="'100%'"
   [width]="'100%'"
   (designerLoaded)="this.designer.designerEl.nativeElement.style.height='100%'">
