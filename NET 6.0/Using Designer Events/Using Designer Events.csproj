@@ -8,7 +8,7 @@
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Dashboards.Angular" Version="2026.3.4" />
+    <PackageReference Include="Stimulsoft.Dashboards.Angular" Version="2026.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="$(SpaRoot)**" />
